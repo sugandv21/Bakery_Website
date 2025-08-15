@@ -3,8 +3,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaInstagram, FaLinkedinIn, FaFacebookF, FaYoutube } from "react-icons/fa";
 import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 import logo from "../assets/images/logo2.png";
-import footerBg from "../assets/images/F1.jpeg";
-import footerOverlay from "../assets/images/f2.png";
+import footerBg from "../assets/images/Footer1.jpeg";
+import footerOverlay from "../assets/images/footer2.png";
 import insta from "../assets/images/insta.png";
 import linkedIn from "../assets/images/linkdIn.png";
 import facebook from "../assets/images/facebook.png";
@@ -112,3 +112,4 @@ export default function Footer() {
     </footer>
   );
 }
+
