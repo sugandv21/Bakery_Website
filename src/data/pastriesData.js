@@ -15,9 +15,9 @@ export const pastries = [
   {
     id: "509",
     img: pastries9,
-    title: "Almond Bliss Croissant",
+    title: "Toasted Almond Croissant",
     price: 500,
-    description: "Flaky croissant layered with almond paste and topped with toasted almonds.",
+    description: "Flaky croissant layered with almond paste and finished with roasted almonds.",
     nutrition: "100g – Calories 370 kcal, Fat 20g, Carbs 38g, Protein 6g",
     ingredients: "Flour, Butter, Sugar, Eggs, Almonds, Almond Paste",
     allergies: "Contains Gluten, Eggs, Milk, Nuts"
@@ -25,9 +25,9 @@ export const pastries = [
   {
     id: "504",
     img: pastries4,
-    title: "Citrus Meringue Delight",
+    title: "Zesty Lemon Pie",
     price: 500,
-    description: "Tangy lemon curd nestled in a crisp base with fluffy meringue topping.",
+    description: "Crispy pie crust filled with lemon curd and crowned with soft meringue.",
     nutrition: "100g – Calories 340 kcal, Fat 16g, Carbs 42g, Protein 4g",
     ingredients: "Flour, Butter, Eggs, Sugar, Lemon",
     allergies: "Contains Gluten, Eggs, Milk"
@@ -35,9 +35,9 @@ export const pastries = [
   {
     id: "512",
     img: pastries12,
-    title: "Petite Éclair Medley",
+    title: "Mini Éclair Collection",
     price: 650,
-    description: "A colorful mix of mini éclairs filled with chocolate, vanilla, and coffee cream.",
+    description: "A variety of petite éclairs filled with chocolate, vanilla, and coffee cream.",
     nutrition: "100g – Calories 380 kcal, Fat 18g, Carbs 42g, Protein 5g",
     ingredients: "Flour, Eggs, Butter, Cream, Chocolate, Coffee",
     allergies: "Contains Gluten, Eggs, Milk"
@@ -45,9 +45,9 @@ export const pastries = [
   {
     id: "501",
     img: pastries1,
-    title: "Choco-Filled Éclair",
+    title: "Classic Choco Éclair",
     price: 400,
-    description: "Soft choux pastry filled with decadent chocolate cream and glazed on top.",
+    description: "Soft choux pastry filled with creamy chocolate custard and glazed on top.",
     nutrition: "100g – Calories 350 kcal, Fat 18g, Carbs 40g, Protein 5g",
     ingredients: "Flour, Eggs, Butter, Chocolate, Cream",
     allergies: "Contains Gluten, Eggs, Milk"
@@ -55,9 +55,9 @@ export const pastries = [
   {
     id: "507",
     img: pastries7,
-    title: "Nutty Caramel Tart",
+    title: "Pecan Caramel Slice",
     price: 550,
-    description: "Buttery pastry tart layered with golden caramel and crunchy pecans.",
+    description: "A buttery tart filled with caramel and crunchy toasted pecans.",
     nutrition: "100g – Calories 400 kcal, Fat 20g, Carbs 45g, Protein 5g",
     ingredients: "Flour, Butter, Sugar, Eggs, Pecans, Caramel",
     allergies: "Contains Gluten, Eggs, Milk, Nuts"
@@ -65,9 +65,9 @@ export const pastries = [
   {
     id: "505",
     img: pastries5,
-    title: "Vanilla Custard Puff",
+    title: "Vanilla Puff Pastry",
     price: 380,
-    description: "Light choux puff generously filled with smooth vanilla cream.",
+    description: "Airy puff filled with smooth vanilla cream custard.",
     nutrition: "100g – Calories 310 kcal, Fat 15g, Carbs 35g, Protein 4g",
     ingredients: "Flour, Eggs, Butter, Sugar, Vanilla, Cream",
     allergies: "Contains Gluten, Eggs, Milk"
@@ -75,29 +75,19 @@ export const pastries = [
   {
     id: "510",
     img: pastries10,
-    title: "Fresh Fruit Fantasy",
+    title: "Seasonal Fruit Tart",
     price: 520,
-    description: "Crisp tart shell topped with luscious cream and vibrant seasonal fruits.",
+    description: "Crisp tart base with cream filling and topped with assorted fresh fruits.",
     nutrition: "100g – Calories 330 kcal, Fat 15g, Carbs 40g, Protein 4g",
     ingredients: "Flour, Butter, Sugar, Eggs, Fruits, Cream",
     allergies: "Contains Gluten, Eggs, Milk"
   },
   {
-    id: "502",
-    img: pastries2,
-    title: "Strawberry Bliss Tart",
-    price: 450,
-    description: "Golden tart base filled with cream and crowned with fresh strawberries.",
-    nutrition: "100g – Calories 330 kcal, Fat 15g, Carbs 42g, Protein 4g",
-    ingredients: "Flour, Butter, Sugar, Eggs, Strawberries, Cream",
-    allergies: "Contains Gluten, Eggs, Milk"
-  },
-  {
     id: "511",
     img: pastries11,
-    title: "Molten Choco Cake",
+    title: "Choco Lava Dessert",
     price: 600,
-    description: "Warm chocolate cake hiding a gooey molten chocolate center.",
+    description: "Warm chocolate cake with a molten center that flows with every bite.",
     nutrition: "100g – Calories 410 kcal, Fat 22g, Carbs 45g, Protein 5g",
     ingredients: "Flour, Butter, Eggs, Chocolate, Sugar",
     allergies: "Contains Gluten, Eggs, Milk"
@@ -105,9 +95,9 @@ export const pastries = [
   {
     id: "503",
     img: pastries3,
-    title: "Caramel Apple Danish",
+    title: "Glazed Apple Danish",
     price: 350,
-    description: "Flaky Danish pastry topped with sweet caramelized apples and glaze.",
+    description: "Golden Danish pastry topped with caramelized apples and sweet glaze.",
     nutrition: "100g – Calories 320 kcal, Fat 14g, Carbs 45g, Protein 3g",
     ingredients: "Flour, Butter, Sugar, Apples, Eggs",
     allergies: "Contains Gluten, Eggs, Milk"
@@ -115,9 +105,9 @@ export const pastries = [
   {
     id: "508",
     img: pastries8,
-    title: "Chocolate Dream Cup",
+    title: "Choco Mousse Tart",
     price: 480,
-    description: "Silky smooth chocolate mousse set in a crunchy pastry cup.",
+    description: "Smooth chocolate mousse served in a crisp pastry shell.",
     nutrition: "100g – Calories 360 kcal, Fat 22g, Carbs 30g, Protein 5g",
     ingredients: "Chocolate, Eggs, Cream, Sugar, Flour",
     allergies: "Contains Gluten, Eggs, Milk"
@@ -125,9 +115,9 @@ export const pastries = [
   {
     id: "506",
     img: pastries6,
-    title: "Berry Jam Croissant",
+    title: "Raspberry Jam Croissant",
     price: 420,
-    description: "Flaky golden croissant with a sweet raspberry jam filling.",
+    description: "Flaky croissant baked with a sweet raspberry jam filling.",
     nutrition: "100g – Calories 360 kcal, Fat 18g, Carbs 40g, Protein 5g",
     ingredients: "Flour, Butter, Sugar, Eggs, Raspberry Jam",
     allergies: "Contains Gluten, Eggs, Milk"
