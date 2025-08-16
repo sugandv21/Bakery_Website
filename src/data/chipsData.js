@@ -1,21 +1,32 @@
 import chips1 from "../assets/images/chips1.webp";
 import chips2 from "../assets/images/chips2.jpg";
-import chips3 from "../assets/images/chips3.jpg";
+import chips3 from "../assets/images/chips11.jpg";
 import chips4 from "../assets/images/chips4.webp";
+import chips5 from "../assets/images/chips12.jpeg";
 
 export const chips = [
   {
-    id: "83",
-    img: chips3,
-    title: "Zesty Onion Delight",
-    price: 220,
-    description: "A crunchy indulgence bursting with the sharp tang of onion and the smooth creaminess of sour cream. Each bite delivers a balanced flavor that is both refreshing and savory, making it a timeless favorite for snack lovers.",
-    nutrition: "100g – 555 kcal, Fat 35g, Carbs 51g, Protein 8g",
-    ingredients: "Potatoes, Sunflower Oil, Sour Cream Powder, Onion Powder",
-    allergies: "Contains Milk"
+    id: "85",
+    img: chips5,
+    title: "Barbecue Chips",
+    price: 200,
+    description: "Smoky and savory chips with a bold barbecue flavor.",
+    nutrition: "100g – 570 kcal, Fat 37g, Carbs 52g, Protein 8g",
+    ingredients: "Potatoes, Sunflower Oil, Barbecue Seasoning, Salt",
+    allergies: "None"
   },
   {
-    id: "81",
+    id: "86",
+    img: chips3,
+    title: "Spicy Chili Chips",
+    price: 210,
+    description: "Crispy chips with a fiery chili kick for spice lovers.",
+    nutrition: "100g – 580 kcal, Fat 38g, Carbs 50g, Protein 8g",
+    ingredients: "Potatoes, Sunflower Oil, Chili Powder, Paprika, Salt",
+    allergies: "None"
+  }
+  {
+    id: "87",
     img: chips1,
     title: "Golden Salt Crunch",
     price: 160,
@@ -25,7 +36,7 @@ export const chips = [
     allergies: "None"
   },
   {
-    id: "84",
+    id: "88",
     img: chips4,
     title: "Garlic Herb Fusion",
     price: 210,
@@ -35,7 +46,7 @@ export const chips = [
     allergies: "None"
   },
   {
-    id: "82",
+    id: "89",
     img: chips2,
     title: "Cheddar Burst Crisps",
     price: 200,
@@ -45,3 +56,4 @@ export const chips = [
     allergies: "Contains Milk"
   }
 ];
+
