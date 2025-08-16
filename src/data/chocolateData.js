@@ -1,5 +1,5 @@
 import choco1 from "../assets/images/choco1.jpeg";
-import choco2 from "../assets/images/choco1.jpg";
+import choco2 from "../assets/images/choco2.jpg";
 import choco3 from "../assets/images/choco3.jpg";
 import choco4 from "../assets/images/choco4.webp";
 import choco5 from "../assets/images/choco5.jpeg";
@@ -18,13 +18,13 @@ export const chocolate = [
   },
   {
     id: "702",
-    img: choco2,
-    title: "Midnight Dark Indulgence",
-    price: 600,
-    description: "Rich and intense dark chocolate with a high cocoa content.",
-    nutrition: "100g – Calories 580 kcal, Fat 35g, Carbs 50g, Protein 8g",
-    ingredients: "Cocoa, Sugar, Cocoa Butter",
-    allergies: "May contain traces of Milk and Nuts"
+    img: choco6,
+    title: "Fruit & Choco Fusion",
+    price: 800,
+    description: "Assorted dried fruits coated with rich chocolate, perfect for gifting or snacking.",
+    nutrition: "100g – Calories 500 kcal, Fat 28g, Carbs 60g, Protein 5g",
+    ingredients: "Cocoa, Sugar, Milk, Dried Fruits",
+    allergies: "Contains Milk, May contain Nuts"
   },
   {
     id: "703",
@@ -58,12 +58,14 @@ export const chocolate = [
   },
   {
     id: "706",
-    img: choco6,
-    title: "Fruit & Choco Fusion",
-    price: 800,
-    description: "Assorted dried fruits coated with rich chocolate, perfect for gifting or snacking.",
-    nutrition: "100g – Calories 500 kcal, Fat 28g, Carbs 60g, Protein 5g",
-    ingredients: "Cocoa, Sugar, Milk, Dried Fruits",
-    allergies: "Contains Milk, May contain Nuts"
+     img: choco2,
+    title: "Midnight Dark Indulgence",
+    price: 600,
+    description: "Rich and intense dark chocolate with a high cocoa content.",
+    nutrition: "100g – Calories 580 kcal, Fat 35g, Carbs 50g, Protein 8g",
+    ingredients: "Cocoa, Sugar, Cocoa Butter",
+    allergies: "May contain traces of Milk and Nuts"
+   
   }
 ];
+
