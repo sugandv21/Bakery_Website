@@ -17,7 +17,7 @@ export const savories = [
     img: savories1,
     title: "Masala Mathri",
     price: 600,
-    description: "Crispy spiced Mathri with a hint of masala. Perfect as a tea-time snack.",
+    description: "Crispy and flaky mathris flavored with aromatic spices, perfect with evening tea.",
     nutrition: "Serving Size (100g) – Calories 450 kcal, Fat 22g, Carbohydrate 55g, Protein 6g.",
     ingredients: "Flour, Oil, Salt, Spices",
     allergies: "Contains Gluten. May contain traces of Nuts."
@@ -27,7 +27,7 @@ export const savories = [
     img: savories2,
     title: "Namak Para",
     price: 700,
-    description: "Savory fried Namak Para, crunchy and lightly spiced. A traditional Indian snack.",
+    description: "Golden fried strips of flour dough, crunchy and lightly salted for a classic Indian snack.",
     nutrition: "Serving Size (100g) – Calories 430 kcal, Fat 20g, Carbohydrate 52g, Protein 5g.",
     ingredients: "Flour, Oil, Salt, Spices",
     allergies: "Contains Gluten."
@@ -37,7 +37,7 @@ export const savories = [
     img: savories3,
     title: "Murukku / Chakli",
     price: 850,
-    description: "Crispy, spiral-shaped South Indian snack made from rice flour and spices.",
+    description: "Spiral-shaped crunchy delight made with rice and urad dal flour, seasoned with spices.",
     nutrition: "Serving Size (100g) – Calories 440 kcal, Fat 21g, Carbohydrate 54g, Protein 6g.",
     ingredients: "Rice Flour, Urad Dal Flour, Oil, Spices",
     allergies: "Contains Gluten."
@@ -47,7 +47,7 @@ export const savories = [
     img: savories4,
     title: "Sav (Plain / Masala)",
     price: 500,
-    description: "Light and crispy Sav, either plain or spiced with masala. Ideal for evening snacks.",
+    description: "Thin, crispy fried strands available in plain or spiced versions, great for snacking.",
     nutrition: "Serving Size (100g) – Calories 410 kcal, Fat 18g, Carbohydrate 50g, Protein 5g.",
     ingredients: "Flour, Oil, Spices",
     allergies: "Contains Gluten."
@@ -57,7 +57,7 @@ export const savories = [
     img: savories5,
     title: "Ribbon Pakoda",
     price: 600,
-    description: "Crunchy and savory ribbon-shaped fried snack. Perfect for munching anytime.",
+    description: "Crunchy ribbon-shaped savory made from rice and gram flour, a South Indian favorite.",
     nutrition: "Serving Size (100g) – Calories 430 kcal, Fat 20g, Carbohydrate 53g, Protein 5g.",
     ingredients: "Rice Flour, Gram Flour, Oil, Spices",
     allergies: "Contains Gluten."
@@ -67,7 +67,7 @@ export const savories = [
     img: savories6,
     title: "Buffs (10 Types)",
     price: 1000,
-    description: "Assorted 10 types of crispy Indian savory snacks. Variety pack for all taste preferences.",
+    description: "A mixed pack of 10 varieties of crunchy Indian snacks, offering a taste of everything.",
     nutrition: "Serving Size (100g) – Calories 450 kcal, Fat 22g, Carbohydrate 55g, Protein 6g.",
     ingredients: "Varies per snack: Flour, Oil, Spices",
     allergies: "Contains Gluten. May contain traces of Nuts."
@@ -77,7 +77,7 @@ export const savories = [
     img: savories7,
     title: "Khakhar",
     price: 1200,
-    description: "Crispy, flaky Khakhar. Light, crunchy, and mildly spiced Indian savory.",
+    description: "Thin, crispy Gujarati flatbread roasted to perfection, light and mildly spiced.",
     nutrition: "Serving Size (100g) – Calories 460 kcal, Fat 24g, Carbohydrate 56g, Protein 5g.",
     ingredients: "Flour, Oil, Salt, Spices",
     allergies: "Contains Gluten."
@@ -87,7 +87,7 @@ export const savories = [
     img: savories8,
     title: "Mixture",
     price: 600,
-    description: "A mix of crispy lentils, nuts, and fried snacks. Spicy, tangy, and addictive.",
+    description: "A spicy, tangy mix of fried lentils, nuts, and sev for a crunchy anytime snack.",
     nutrition: "Serving Size (100g) – Calories 440 kcal, Fat 21g, Carbohydrate 54g, Protein 6g.",
     ingredients: "Lentils, Peanuts, Spices, Oil",
     allergies: "Contains Nuts and Gluten."
@@ -97,7 +97,7 @@ export const savories = [
     img: savories9,
     title: "Savory Muffins",
     price: 1250,
-    description: "Soft, fluffy savory muffins loaded with herbs and spices. Great for parties or breakfast.",
+    description: "Soft muffins infused with herbs, cheese, and spices for a savory twist to baking.",
     nutrition: "Serving Size (100g) – Calories 400 kcal, Fat 18g, Carbohydrate 50g, Protein 6g.",
     ingredients: "Flour, Butter, Eggs, Cheese, Herbs",
     allergies: "Contains Gluten, Milk, and Eggs."
@@ -107,7 +107,7 @@ export const savories = [
     img: savories10,
     title: "Mini Quiches",
     price: 900,
-    description: "Tiny, baked quiches with a variety of fillings. Savory, cheesy, and delicious.",
+    description: "Bite-sized quiches filled with vegetables, cheese, and herbs, baked to golden perfection.",
     nutrition: "Serving Size (100g) – Calories 420 kcal, Fat 20g, Carbohydrate 45g, Protein 7g.",
     ingredients: "Flour, Eggs, Cheese, Vegetables, Butter",
     allergies: "Contains Gluten, Milk, and Eggs."
@@ -117,7 +117,7 @@ export const savories = [
     img: savories11,
     title: "Garlic Knots",
     price: 700,
-    description: "Soft bread knots brushed with garlic butter and herbs. A savory treat for all occasions.",
+    description: "Soft bread knots brushed with garlic butter and herbs, baked until golden brown.",
     nutrition: "Serving Size (100g) – Calories 390 kcal, Fat 15g, Carbohydrate 60g, Protein 5g.",
     ingredients: "Flour, Butter, Garlic, Yeast, Herbs",
     allergies: "Contains Gluten, Milk."
@@ -127,7 +127,7 @@ export const savories = [
     img: savories12,
     title: "Salted Pretzels",
     price: 850,
-    description: "Crispy and salty pretzels with a perfect golden crust. Ideal for snacking or with dips.",
+    description: "Classic twisted pretzels with a crunchy crust and a sprinkle of coarse salt.",
     nutrition: "Serving Size (100g) – Calories 410 kcal, Fat 14g, Carbohydrate 65g, Protein 6g.",
     ingredients: "Flour, Salt, Butter, Yeast",
     allergies: "Contains Gluten, Milk."
