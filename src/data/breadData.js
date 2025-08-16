@@ -1,6 +1,6 @@
-import bread1 from "../assets/images/bread1.jpg";
+import bread1 from "../assets/images/bread1.jpeg";
 import bread2 from "../assets/images/bread2.webp";
-import bread4 from "../assets/images/bread3.jpg";
+import bread4 from "../assets/images/bread3.webp";
 import bread3 from "../assets/images/bread4.webp";
 
 export const bread = [
@@ -45,3 +45,4 @@ export const bread = [
     allergies: "Contains Gluten"
   }
 ];
+
