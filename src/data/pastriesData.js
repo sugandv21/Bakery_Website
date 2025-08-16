@@ -13,7 +13,7 @@ import pastries12 from "../assets/images/pastries12.webp";
 
 export const pastries = [
   {
-    id: "509",
+    id: "501",
     img: pastries9,
     title: "Almond Bliss Croissant",
     price: 500,
@@ -23,7 +23,7 @@ export const pastries = [
     allergies: "Contains Gluten, Eggs, Milk, Nuts"
   },
   {
-    id: "504",
+    id: "502",
     img: pastries4,
     title: "Lemon Cloud Pie",
     price: 500,
@@ -34,7 +34,7 @@ export const pastries = [
   },
 
   {
-    id: "507",
+    id: "503",
     img: pastries7,
     title: "Caramel Pecan Delight",
     price: 550,
@@ -44,7 +44,7 @@ export const pastries = [
     allergies: "Contains Gluten, Eggs, Milk, Nuts"
   },
   {
-    id: "505",
+    id: "504",
     img: pastries5,
     title: "Vanilla Dream Puff",
     price: 380,
@@ -54,7 +54,7 @@ export const pastries = [
     allergies: "Contains Gluten, Eggs, Milk"
   },
   {
-    id: "510",
+    id: "505",
     img: pastries10,
     title: "Fresh Fruit Tartlet",
     price: 520,
@@ -64,7 +64,7 @@ export const pastries = [
     allergies: "Contains Gluten, Eggs, Milk"
   },
   {
-    id: "511",
+    id: "506",
     img: pastries11,
     title: "Molten Choco Indulgence",
     price: 600,
@@ -75,7 +75,7 @@ export const pastries = [
   },
  
   {
-    id: "508",
+    id: "507",
     img: pastries8,
     title: "Silky Choco Mousse Tart",
     price: 480,
@@ -85,7 +85,7 @@ export const pastries = [
     allergies: "Contains Gluten, Eggs, Milk"
   },
   {
-    id: "506",
+    id: "508",
     img: pastries6,
     title: "Raspberry Croissant Swirl",
     price: 420,
@@ -95,4 +95,5 @@ export const pastries = [
     allergies: "Contains Gluten, Eggs, Milk"
   }
 ];
+
 
