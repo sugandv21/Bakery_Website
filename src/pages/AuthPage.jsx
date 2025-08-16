@@ -11,7 +11,7 @@ export default function AuthPage() {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#F3E5AB] to-[#FFF8F0]">
+    <div className="min-h-screen flex items-center justify-center bg-[#FFF8F0]">
       <div className="w-full max-w-5xl mx-auto mt-24 md:mt-40 lg:mt-32 rounded-lg shadow-lg overflow-hidden bg-[#FFF8F0]">
         <AuthTabs activeTab={activeTab} setActiveTab={setActiveTab} />
         {activeTab === "login" ? (
@@ -48,4 +48,5 @@ export default function AuthPage() {
 //     </div>
 //   );
 // }
+
 
