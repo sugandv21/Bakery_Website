@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import bread from "../assets/images/freshbakes.png";
 import cake from "../assets/images/cakeblog.jpg";
 
 const BakeryBlog = () => {
+      useEffect(() => {
+        document.title = "CHERRI | BLOG";  
+      }, []);
     return (
-        <main className=" text-[#0F0F0F] px-6 md:px-20 py-10 font-sans mt-28">
+        <main className=" text-[#0F0F0F] px-6 md:px-20 py-10 font-sans mt-20 md:mt-44 lg:mt-32 bg-[#FFF8F0]">
             <h1 className="text-center text-[20px] md:text-[36px] font-bold text-[#e57f35] mb-8">
                 Welcome to Our Bakery Blog
             </h1>
