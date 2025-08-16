@@ -12,13 +12,29 @@ export const WishlistProvider = ({ children }) => {
     localStorage.setItem("wishlist", JSON.stringify(wishlist));
   }, [wishlist]);
 
-  const addToWishlist = (product) => {
-    if (wishlist.find((item) => item.id === product.id)) {
-      setWishlist(wishlist.filter((item) => item.id !== product.id));
-    } else {
-      setWishlist([...wishlist, product]);
+  // const addToWishlist = (product) => {
+  //   if (wishlist.find((item) => item.id === product.id)) {
+  //     setWishlist(wishlist.filter((item) => item.id !== product.id));
+  //   } else {
+  //     setWishlist([...wishlist, product]);
+  //   }
+  // };
+const addToWishlist = (item) => {
+  setWishlist((prev) => {
+    if (prev.find((p) => p.id === item.id)) {
+      return prev; 
     }
-  };
+    return [
+      ...prev,
+      {
+        ...item,
+        category: item.category || "Cake", 
+      },
+    ];
+  });
+};
+
+
 
   const removeFromWishlist = (id) => {
     setWishlist(wishlist.filter((item) => item.id !== id));
