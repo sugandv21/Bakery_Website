@@ -23,180 +23,179 @@ export const cake = [
     img: cakep1, 
     title: "Black Forest Cake", 
     price: 600, 
-    description: "Classic German dessert layered with chocolate sponge, whipped cream, and cherries. Topped with chocolate shavings for a rich bite. A timeless choice for celebrations.",
-    nutrition: "Serving Size (100g) – Calories 320 kcal, Fat 16g, Saturated Fat 9g, Trans Fat 0g, Cholesterol 45mg, Sodium 160mg, Carbohydrate 40g, Sugar 28g, Protein 5g.",
-    ingredients: "Flour, Sugar, Cocoa Powder, Eggs, Butter, Whipping Cream, Cherries.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "A German-inspired classic made with layers of rich chocolate sponge, fluffy whipped cream, and juicy cherries. Finished with chocolate curls and cherry toppings for a truly indulgent treat.",
+    nutrition: "100g – 330 kcal, Fat 17g, Carbs 41g, Protein 5g, Sugar 29g, Sodium 165mg.",
+    ingredients: "Chocolate Sponge, Whipped Cream, Cherries, Cocoa Powder, Sugar, Butter, Eggs.",
+    allergies: "Contains Gluten, Dairy, and Eggs. May contain traces of Tree Nuts."
   },
   { 
     id: "202", 
     img: cakep2, 
     title: "Chocolate Delight Cake", 
     price: 700, 
-    description: "Rich, moist chocolate sponge layered with silky chocolate ganache. Decadent and indulgent in every slice. A true paradise for chocolate lovers.",
-    nutrition: "Serving Size (100g) – Calories 350 kcal, Fat 18g, Saturated Fat 10g, Trans Fat 0g, Cholesterol 50mg, Sodium 170mg, Carbohydrate 42g, Sugar 30g, Protein 6g.",
-    ingredients: "Flour, Cocoa Powder, Sugar, Eggs, Butter, Dark Chocolate, Cream.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "A dense and moist chocolate sponge layered with silky chocolate ganache. Pure cocoa indulgence for those who crave the ultimate chocolate experience.",
+    nutrition: "100g – 360 kcal, Fat 19g, Carbs 44g, Protein 6g, Sugar 32g, Sodium 170mg.",
+    ingredients: "Dark Chocolate, Flour, Sugar, Cocoa, Cream, Butter, Eggs.",
+    allergies: "Contains Gluten, Milk, Eggs. Processed in a facility handling Nuts."
   },
   { 
     id: "203", 
     img: cakep3, 
     title: "Red Velvet Cake", 
     price: 850, 
-    description: "Moist red velvet layers with a hint of cocoa, paired with tangy cream cheese frosting. Velvety smooth texture in every bite. Elegant and irresistible.",
-    nutrition: "Serving Size (100g) – Calories 340 kcal, Fat 15g, Saturated Fat 9g, Trans Fat 0g, Cholesterol 48mg, Sodium 165mg, Carbohydrate 43g, Sugar 29g, Protein 5g.",
-    ingredients: "Flour, Sugar, Cocoa Powder, Eggs, Butter, Buttermilk, Cream Cheese.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "Smooth, soft red velvet sponge with delicate cocoa notes, balanced by a luscious cream cheese frosting. A luxurious, romantic dessert with a signature velvety texture.",
+    nutrition: "100g – 345 kcal, Fat 16g, Carbs 44g, Protein 5g, Sugar 30g, Sodium 160mg.",
+    ingredients: "Flour, Buttermilk, Cocoa Powder, Sugar, Eggs, Cream Cheese, Butter.",
+    allergies: "Contains Gluten, Dairy, Eggs. May include Nut traces."
   },
   { 
     id: "204", 
     img: cakep4, 
     title: "Vanilla Sponge Cake", 
     price: 500, 
-    description: "Light and fluffy vanilla sponge baked to perfection. Mild sweetness with a soft crumb. Perfect for tea-time or as a base for celebrations.",
-    nutrition: "Serving Size (100g) – Calories 310 kcal, Fat 12g, Saturated Fat 7g, Trans Fat 0g, Cholesterol 42mg, Sodium 150mg, Carbohydrate 45g, Sugar 26g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Vanilla Extract, Baking Powder.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "A light, airy sponge infused with pure vanilla extract. Soft, moist, and delicately sweet — perfect for pairing with tea or as a customizable base for layered celebrations.",
+    nutrition: "100g – 310 kcal, Fat 12g, Carbs 46g, Protein 5g, Sugar 27g, Sodium 150mg.",
+    ingredients: "Flour, Eggs, Sugar, Butter, Vanilla Extract, Baking Powder.",
+    allergies: "Contains Gluten, Dairy, Eggs."
   },
   { 
     id: "205", 
     img: cakep5, 
     title: "Butterscotch Cake", 
     price: 650, 
-    description: "Golden sponge layered with creamy butterscotch frosting and crunchy praline. Sweet, nutty, and indulgent. A hit among dessert lovers.",
-    nutrition: "Serving Size (100g) – Calories 360 kcal, Fat 17g, Saturated Fat 9g, Trans Fat 0g, Cholesterol 46mg, Sodium 170mg, Carbohydrate 44g, Sugar 31g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Butterscotch Syrup, Praline.",
-    allergies: "Contains Gluten, Milk, Eggs, and Nuts."
+    description: "Caramelized butterscotch sponge paired with creamy frosting and crunchy praline bits. Sweet, nutty, and perfectly rich — a classic crowd-pleaser.",
+    nutrition: "100g – 365 kcal, Fat 18g, Carbs 45g, Protein 5g, Sugar 32g, Sodium 175mg.",
+    ingredients: "Flour, Sugar, Eggs, Butter, Butterscotch Syrup, Caramel Praline.",
+    allergies: "Contains Gluten, Dairy, Eggs, and Nuts."
   },
   { 
     id: "206", 
     img: cakep6, 
     title: "Pineapple Cake", 
     price: 550, 
-    description: "Soft vanilla sponge layered with fresh pineapple cream and chunks. Refreshing and fruity in every bite. A tropical treat for sunny days.",
-    nutrition: "Serving Size (100g) – Calories 320 kcal, Fat 14g, Saturated Fat 8g, Trans Fat 0g, Cholesterol 43mg, Sodium 155mg, Carbohydrate 45g, Sugar 29g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Pineapple, Whipping Cream.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "Fluffy vanilla sponge layered with pineapple cream and real pineapple chunks. A refreshing tropical delight that’s light yet flavorful.",
+    nutrition: "100g – 325 kcal, Fat 14g, Carbs 47g, Protein 5g, Sugar 30g, Sodium 155mg.",
+    ingredients: "Flour, Pineapple Chunks, Cream, Sugar, Eggs, Butter.",
+    allergies: "Contains Gluten, Dairy, Eggs."
   },
   { 
     id: "207", 
     img: cakep7, 
     title: "Cheesecake", 
     price: 1200, 
-    description: "Creamy, rich cheesecake with a buttery biscuit base. Smooth texture and mildly tangy flavor. A luxurious dessert for special occasions.",
-    nutrition: "Serving Size (100g) – Calories 370 kcal, Fat 22g, Saturated Fat 12g, Trans Fat 0g, Cholesterol 60mg, Sodium 180mg, Carbohydrate 32g, Sugar 24g, Protein 6g.",
-    ingredients: "Cream Cheese, Sugar, Eggs, Butter, Biscuits, Vanilla Extract.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "A decadent baked cheesecake with a buttery biscuit base. Smooth, creamy, and slightly tangy — the epitome of indulgence.",
+    nutrition: "100g – 375 kcal, Fat 23g, Carbs 34g, Protein 6g, Sugar 25g, Sodium 180mg.",
+    ingredients: "Cream Cheese, Butter, Biscuits, Eggs, Sugar, Vanilla.",
+    allergies: "Contains Dairy, Eggs, Gluten. May contain traces of Nuts."
   },
   { 
     id: "208", 
     img: cakep8, 
     title: "Carrot Cake", 
     price: 600, 
-    description: "Moist spiced cake made with grated carrots and walnuts. Topped with cream cheese frosting. Earthy, warm, and full of flavor.",
-    nutrition: "Serving Size (100g) – Calories 350 kcal, Fat 16g, Saturated Fat 8g, Trans Fat 0g, Cholesterol 45mg, Sodium 160mg, Carbohydrate 46g, Sugar 29g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Carrots, Walnuts, Spices.",
-    allergies: "Contains Gluten, Milk, Eggs, and Nuts."
+    description: "A wholesome spiced cake with grated carrots and crunchy walnuts, topped with tangy cream cheese frosting. Earthy, warm, and soul-satisfying.",
+    nutrition: "100g – 355 kcal, Fat 17g, Carbs 47g, Protein 5g, Sugar 30g, Sodium 165mg.",
+    ingredients: "Carrots, Flour, Sugar, Eggs, Walnuts, Cinnamon, Cream Cheese.",
+    allergies: "Contains Gluten, Dairy, Eggs, Nuts."
   },
   { 
     id: "209", 
     img: cakep9, 
     title: "Tiramisu Cake", 
     price: 1250, 
-    description: "Italian-inspired dessert layered with coffee-soaked sponge and mascarpone cream. Light, creamy, and full of coffee flavor. Perfect for coffee lovers.",
-    nutrition: "Serving Size (100g) – Calories 360 kcal, Fat 18g, Saturated Fat 10g, Trans Fat 0g, Cholesterol 48mg, Sodium 165mg, Carbohydrate 41g, Sugar 28g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Coffee, Mascarpone, Cocoa Powder.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "Italian favorite with espresso-soaked sponge layers and creamy mascarpone filling, dusted with cocoa. A coffee lover’s dream dessert.",
+    nutrition: "100g – 365 kcal, Fat 19g, Carbs 42g, Protein 5g, Sugar 29g, Sodium 165mg.",
+    ingredients: "Coffee, Mascarpone, Cocoa, Flour, Eggs, Sugar, Butter.",
+    allergies: "Contains Gluten, Dairy, Eggs."
   },
   { 
     id: "900", 
     img: cakep10, 
     title: "Fruit Cake", 
     price: 600, 
-    description: "Dense and moist cake loaded with dried fruits and nuts. Warmly spiced for a festive flavor. Perfect for holiday celebrations.",
-    nutrition: "Serving Size (100g) – Calories 380 kcal, Fat 15g, Saturated Fat 7g, Trans Fat 0g, Cholesterol 40mg, Sodium 150mg, Carbohydrate 55g, Sugar 35g, Protein 6g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Mixed Dried Fruits, Nuts, Spices.",
-    allergies: "Contains Gluten, Milk, Eggs, and Nuts."
+    description: "A dense, rich cake brimming with dried fruits, nuts, and warm spices. Perfect for festive gatherings and celebrations.",
+    nutrition: "100g – 380 kcal, Fat 15g, Carbs 55g, Protein 6g, Sugar 36g, Sodium 150mg.",
+    ingredients: "Mixed Dried Fruits, Nuts, Flour, Sugar, Butter, Eggs, Spices.",
+    allergies: "Contains Gluten, Dairy, Eggs, Nuts."
   },
   { 
     id: "700", 
     img: cakep11, 
     title: "Coffee Cake", 
     price: 620, 
-    description: "Fluffy sponge infused with coffee and layered with coffee buttercream. Rich and aromatic. A sweet pick-me-up for coffee fans.",
-    nutrition: "Serving Size (100g) – Calories 340 kcal, Fat 15g, Saturated Fat 8g, Trans Fat 0g, Cholesterol 44mg, Sodium 155mg, Carbohydrate 45g, Sugar 28g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Coffee, Cream.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "Moist sponge infused with fresh coffee essence, layered with creamy coffee buttercream. A warm and energizing dessert.",
+    nutrition: "100g – 345 kcal, Fat 16g, Carbs 46g, Protein 5g, Sugar 29g, Sodium 155mg.",
+    ingredients: "Coffee Extract, Flour, Sugar, Eggs, Butter, Cream.",
+    allergies: "Contains Gluten, Dairy, Eggs."
   },
   { 
     id: "212", 
     img: cakep12, 
     title: "KitKat Cake", 
     price: 680, 
-    description: "Chocolate sponge layered with ganache, surrounded by KitKat bars. Fun, crunchy, and delicious. A favorite among kids and adults alike.",
-    nutrition: "Serving Size (100g) – Calories 390 kcal, Fat 19g, Saturated Fat 11g, Trans Fat 0g, Cholesterol 52mg, Sodium 165mg, Carbohydrate 50g, Sugar 34g, Protein 6g.",
-    ingredients: "Flour, Sugar, Cocoa Powder, Eggs, Butter, KitKat, Cream.",
-    allergies: "Contains Gluten, Milk, Eggs, and Nuts."
+    description: "Rich chocolate sponge layered with ganache and encircled by KitKat bars. Fun, crunchy, and irresistible for chocolate lovers.",
+    nutrition: "100g – 395 kcal, Fat 20g, Carbs 51g, Protein 6g, Sugar 35g, Sodium 170mg.",
+    ingredients: "Chocolate Sponge, KitKat Bars, Cream, Cocoa, Sugar, Butter.",
+    allergies: "Contains Gluten, Dairy, Eggs, Nuts."
   },
   { 
     id: "213", 
     img: cakep13, 
     title: "Rainbow Cake", 
     price: 1100, 
-    description: "Colorful layers of sponge cake with vanilla frosting. Bright, cheerful, and delicious. A party favorite for all ages.",
-    nutrition: "Serving Size (100g) – Calories 330 kcal, Fat 14g, Saturated Fat 8g, Trans Fat 0g, Cholesterol 40mg, Sodium 150mg, Carbohydrate 47g, Sugar 30g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Food Colors, Cream.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "Vibrant layers of colorful sponge frosted with vanilla cream. Bright, festive, and perfect for birthdays and celebrations.",
+    nutrition: "100g – 335 kcal, Fat 15g, Carbs 48g, Protein 5g, Sugar 31g, Sodium 150mg.",
+    ingredients: "Flour, Sugar, Eggs, Food Coloring, Vanilla Extract, Butter, Cream.",
+    allergies: "Contains Gluten, Dairy, Eggs."
   },
   { 
     id: "214", 
     img: cakep14, 
     title: "Oreo Cake", 
     price: 700, 
-    description: "Chocolate sponge layered with Oreo cream frosting. Crunchy cookie bits in every bite. Perfect for Oreo lovers.",
-    nutrition: "Serving Size (100g) – Calories 370 kcal, Fat 17g, Saturated Fat 9g, Trans Fat 0g, Cholesterol 48mg, Sodium 160mg, Carbohydrate 49g, Sugar 33g, Protein 5g.",
-    ingredients: "Flour, Sugar, Cocoa Powder, Eggs, Butter, Oreo Cookies, Cream.",
-    allergies: "Contains Gluten, Milk, Eggs, and Nuts."
+    description: "Chocolate sponge layered with Oreo-flavored cream and topped with crunchy cookie bits. A creamy-crunchy delight for Oreo fans.",
+    nutrition: "100g – 375 kcal, Fat 18g, Carbs 49g, Protein 5g, Sugar 34g, Sodium 160mg.",
+    ingredients: "Oreo Cookies, Flour, Cocoa, Sugar, Eggs, Butter, Cream.",
+    allergies: "Contains Gluten, Dairy, Eggs."
   },
   { 
     id: "215", 
     img: cakep15, 
     title: "Blueberry Cake", 
     price: 1050, 
-    description: "Soft vanilla sponge layered with blueberry compote and cream. Fruity, tangy, and refreshing. Great for summer parties.",
-    nutrition: "Serving Size (100g) – Calories 340 kcal, Fat 14g, Saturated Fat 8g, Trans Fat 0g, Cholesterol 42mg, Sodium 155mg, Carbohydrate 47g, Sugar 31g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Blueberries, Cream.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "Soft sponge cake layered with blueberry compote and whipped cream. Fruity, tangy, and refreshingly light.",
+    nutrition: "100g – 345 kcal, Fat 14g, Carbs 48g, Protein 5g, Sugar 32g, Sodium 155mg.",
+    ingredients: "Blueberries, Flour, Sugar, Eggs, Butter, Cream.",
+    allergies: "Contains Gluten, Dairy, Eggs."
   },
   { 
     id: "216", 
     img: cakep16, 
     title: "Rasmalai Cake", 
     price: 900, 
-    description: "Fusion dessert combining sponge cake with traditional rasmalai flavors. Saffron, cardamom, and cream create a royal treat. A unique Indian twist.",
-    nutrition: "Serving Size (100g) – Calories 360 kcal, Fat 16g, Saturated Fat 9g, Trans Fat 0g, Cholesterol 45mg, Sodium 160mg, Carbohydrate 46g, Sugar 32g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Cream, Rasmalai, Saffron, Cardamom.",
-    allergies: "Contains Gluten, Milk, Eggs, and Nuts."
+    description: "A royal fusion of Indian rasmalai and soft sponge cake. Flavored with saffron, cardamom, and rich cream — an exotic delicacy.",
+    nutrition: "100g – 365 kcal, Fat 17g, Carbs 46g, Protein 5g, Sugar 33g, Sodium 160mg.",
+    ingredients: "Saffron, Cardamom, Rasmalai, Flour, Sugar, Cream, Eggs.",
+    allergies: "Contains Gluten, Dairy, Eggs, Nuts."
   },
   { 
     id: "217", 
     img: cakep17, 
     title: "Strawberry Cream Cake", 
     price: 700, 
-    description: "Light sponge layered with fresh strawberry cream. Sweet, fruity, and refreshing. A romantic favorite for special moments.",
-    nutrition: "Serving Size (100g) – Calories 330 kcal, Fat 14g, Saturated Fat 8g, Trans Fat 0g, Cholesterol 40mg, Sodium 150mg, Carbohydrate 46g, Sugar 30g, Protein 5g.",
-    ingredients: "Flour, Sugar, Eggs, Butter, Strawberries, Cream.",
-    allergies: "Contains Gluten, Milk, and Eggs. May contain traces of Nuts."
+    description: "Layers of fluffy sponge with fresh strawberry puree and cream. Sweet, fruity, and a romantic classic.",
+    nutrition: "100g – 335 kcal, Fat 14g, Carbs 47g, Protein 5g, Sugar 31g, Sodium 150mg.",
+    ingredients: "Strawberries, Flour, Sugar, Eggs, Butter, Cream.",
+    allergies: "Contains Gluten, Dairy, Eggs."
   },
   { 
     id: "218", 
     img: cakep18, 
     title: "Custom Theme Cake", 
     price: 450, 
-    description: "Personalized cake designed to match your theme or event. Choose your flavors, colors, and decorations. Perfect for making memories.",
-    nutrition: "Serving Size (100g) – Calories vary depending on flavor and decoration.",
-    ingredients: "Varies by customization. May include Flour, Sugar, Eggs, Butter, Cream, Fondant, Chocolate.",
-    allergies: "Contains Gluten, Milk, Eggs, and possibly Nuts depending on customization."
+    description: "A personalized cake crafted to match any event theme. Choose your preferred flavors, colors, and decorations — designed to create unforgettable memories.",
+    nutrition: "Nutrition values vary depending on flavor and customization.",
+    ingredients: "Customizable — may include Sponge, Chocolate, Fondant, Cream, Fruits, Food Colors.",
+    allergies: "Contains Gluten, Dairy, Eggs. May include Nuts depending on design."
   },
- 
 ];
