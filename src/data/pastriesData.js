@@ -32,26 +32,7 @@ export const pastries = [
     ingredients: "Flour, Butter, Eggs, Sugar, Lemon",
     allergies: "Contains Gluten, Eggs, Milk"
   },
-  {
-    id: "512",
-    img: pastries12,
-    title: "Eclair Medley Bites",
-    price: 650,
-    description: "A delightful set of mini éclairs filled with silky chocolate, vanilla, and coffee cream for every mood.",
-    nutrition: "100g – Calories 380 kcal, Fat 18g, Carbs 42g, Protein 5g",
-    ingredients: "Flour, Eggs, Butter, Cream, Chocolate, Coffee",
-    allergies: "Contains Gluten, Eggs, Milk"
-  },
-  {
-    id: "501",
-    img: pastries1,
-    title: "Choco Éclair Classic",
-    price: 400,
-    description: "Soft choux pastry piped with rich chocolate custard and glazed for a timeless indulgence.",
-    nutrition: "100g – Calories 350 kcal, Fat 18g, Carbs 40g, Protein 5g",
-    ingredients: "Flour, Eggs, Butter, Chocolate, Cream",
-    allergies: "Contains Gluten, Eggs, Milk"
-  },
+
   {
     id: "507",
     img: pastries7,
@@ -92,16 +73,7 @@ export const pastries = [
     ingredients: "Flour, Butter, Eggs, Chocolate, Sugar",
     allergies: "Contains Gluten, Eggs, Milk"
   },
-  {
-    id: "503",
-    img: pastries3,
-    title: "Caramel Apple Danish",
-    price: 350,
-    description: "Golden Danish pastry topped with caramelized apples and drizzled with a sweet glaze.",
-    nutrition: "100g – Calories 320 kcal, Fat 14g, Carbs 45g, Protein 3g",
-    ingredients: "Flour, Butter, Sugar, Apples, Eggs",
-    allergies: "Contains Gluten, Eggs, Milk"
-  },
+ 
   {
     id: "508",
     img: pastries8,
@@ -123,3 +95,4 @@ export const pastries = [
     allergies: "Contains Gluten, Eggs, Milk"
   }
 ];
+
