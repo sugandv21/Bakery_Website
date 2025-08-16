@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+          fontFamily: {
+        spartan: ['"League Spartan"', 'sans-serif'],
       },
     },
   },
