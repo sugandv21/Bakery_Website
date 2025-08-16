@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import { products } from "../pages/ProductsSection"; // ✅ import products
+import { products } from "../pages/ProductsSection"; 
 import logo from "../assets/images/logo.png";
 import heartIcon from "../assets/images/heart.png";
 import bellIcon from "../assets/images/bell.png";
