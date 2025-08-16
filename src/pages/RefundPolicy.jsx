@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../assets/images/logo2.png";
 import { FaUndoAlt, FaClock, FaCreditCard, FaExclamationTriangle } from "react-icons/fa";
 
 export default function RefundPolicy() {
+   useEffect(() => {
+      document.title = "CHERRI | REFUND POLICY";  
+    }, []);
   return (
-    <div className="min-h-screen mt-28 p-6">
+    <div className="min-h-screen mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] p-6">
       <div className="max-w-4xl mx-auto text-gray-700 space-y-6">
         <img src={logo} alt="Cherii" className="mx-auto mb-4 w-32" />
         <h1 className="text-4xl font-bold mb-6 text-center">Refund & Cancellation Policy</h1>
