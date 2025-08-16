@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaHeart } from "react-icons/fa";
 import { cake } from "../data/cakeData";
@@ -6,9 +6,12 @@ import { useWishlist } from "../context/WishlistContext";
 
 const Cake = () => {
   const { wishlist, addToWishlist } = useWishlist();
+   useEffect(() => {
+        document.title = "CHERRI | PRODUCT-CAKE";  
+      }, []);
 
   return (
-    <section className="mt-28 py-10 min-h-screen">
+    <section className=" mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] py-10 min-h-screen">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-center text-2xl font-bold text-[#E57F35] mb-10">
           CAKES
