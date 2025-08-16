@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import img3 from "../assets/images/user1.png";
 import img4 from "../assets/images/user2.png";
 
 const TestimonialPage = () => {
+   useEffect(() => {
+      document.title = "CHERRI | TESTIMONIALS";  
+    }, []);
   const location = useLocation();
   const navigate = useNavigate();
   const { testimonials } = location.state || [];
@@ -15,7 +18,6 @@ const TestimonialPage = () => {
 
   const allTestimonials = testimonials ? [...testimonials, ...extraTestimonials] : extraTestimonials;
 
-  // Modal state
   const [showModal, setShowModal] = useState(false);
   const [reviewName, setReviewName] = useState("");
   const [reviewText, setReviewText] = useState("");
@@ -31,7 +33,7 @@ const TestimonialPage = () => {
   };
 
   return (
-    <div className="mt-28 py-12 px-4 sm:px-8 lg:px-16 max-w-6xl mx-auto">
+    <div className="mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] py-12 px-4 sm:px-8 lg:px-16 max-w-6xl mx-auto">
   
       <button onClick={() => navigate(-1)} className="mb-6 text-[#E6772E] font-bold hover:underline">
         ← Back to Home
