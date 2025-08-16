@@ -1,5 +1,5 @@
 import choco1 from "../assets/images/choco1.jpeg";
-import choco2 from "../assets/images/choco2.jpg";
+import choco2 from "../assets/images/choco1.jpg";
 import choco3 from "../assets/images/choco3.jpg";
 import choco4 from "../assets/images/choco4.webp";
 import choco5 from "../assets/images/choco5.jpeg";
@@ -67,3 +67,4 @@ export const chocolate = [
     allergies: "Contains Milk, May contain Nuts"
   }
 ];
+
