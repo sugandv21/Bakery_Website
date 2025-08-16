@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import paniPuri from "../assets/images/chat1.png";
@@ -54,6 +54,9 @@ const chatItems = [
 ];
 
 export default function Chat() {
+   useEffect(() => {
+      document.title = "CHERRI | PRODUCT-CHAT ITEMS";  
+    }, []);
   const [expanded, setExpanded] = useState(null);
 
   const toggleExpand = (id) => {
@@ -156,3 +159,4 @@ export default function Chat() {
     </div>
   );
 }
+
