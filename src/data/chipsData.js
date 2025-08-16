@@ -1,6 +1,6 @@
 import chips1 from "../assets/images/chips1.webp";
 import chips2 from "../assets/images/chips2.jpg";
-import chips3 from "../assets/images/chips3.jpg";
+import chips3 from "../assets/images/chips11.jpg";
 import chips4 from "../assets/images/chips12.jpeg";
 
 export const chips = [
@@ -24,16 +24,16 @@ export const chips = [
     ingredients: "Potatoes, Sunflower Oil, Cheese Powder, Salt",
     allergies: "Contains Milk"
   },
-  {
-    id: "83",
-    img: chips3,
-    title: "Sour Cream & Onion Chips",
-    price: 190,
-    description: "Tangy sour cream blended with savory onion seasoning for a classic, flavorful crunch.",
-    nutrition: "100g – 555 kcal, Fat 35g, Carbs 51g, Protein 8g",
-    ingredients: "Potatoes, Sunflower Oil, Sour Cream Powder, Onion Powder, Salt",
-    allergies: "Contains Milk"
-  },
+ {
+  id: "83",
+  img: chips3,
+  title: "Spicy Chips",
+  price: 190,
+  description: "Thin and crispy potato chips coated with a fiery blend of chili and spices, delivering a bold kick of heat in every bite.",
+  nutrition: "100g – 550 kcal, Fat 33g, Carbs 55g, Protein 6g",
+  ingredients: "Potatoes, Sunflower Oil, Chili Powder, Paprika, Mixed Spices, Salt",
+  allergies: "May contain traces of gluten"
+},
  {
   id: "84",
   img: chips4,
