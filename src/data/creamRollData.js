@@ -1,3 +1,7 @@
+import creamroll1 from "../assets/images/creamroll1.jpeg"; 
+import creamroll2 from "../assets/images/creamroll2.jpg"; 
+import creamroll3 from "../assets/images/creamroll3.webp"; 
+import creamroll4 from "../assets/images/creamroll4.jpg";
 export const creamRoll = [
   {
     id: "51",
@@ -40,3 +44,4 @@ export const creamRoll = [
     allergies: "Contains Eggs, Milk, Gluten"
   }
 ];
+
