@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import aboutImg from "../assets/images/about.jpg";
 import storyImg from "../assets/images/story.jpg";
 import visitImg from "../assets/images/visit.jpg";
@@ -10,9 +10,13 @@ import cardImg5 from "../assets/images/card5.png";
 
 export default function AboutUs() {
   const cards = [cardImg1, cardImg2, cardImg3, cardImg4, cardImg5];
+   useEffect(() => {
+    document.title = "CHERRI | ABOUT";  
+  }, []);
+
 
   return (
-    <div className="bg-white text-gray-900 mt-32">
+    <div className="text-gray-900 mt-20 md:mt-44 lg:mt-32 bg-[#FFF8F0]">
       <section className="max-w-6xl mx-auto px-6 py-12">
         <h2 className="text-center text-[#e57f35] font-bold text-2xl mb-4">
           ABOUT US
