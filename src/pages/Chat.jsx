@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 
 import paniPuri from "../assets/images/chat1.png";
@@ -69,8 +68,8 @@ export default function Chat() {
             Street-Style Chats – Available in Store
           </h1>
           <p className="mt-2 opacity-90 max-w-2xl">
-            Relish the authentic taste of India with our freshly prepared chat items. 
-            All items are available in our shop.
+            Relish the authentic taste of India with our freshly prepared chat
+            items. All items are available in our shop.
           </p>
           <Link
             to="/products"
@@ -83,12 +82,9 @@ export default function Chat() {
 
       <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {chatItems.map((item, idx) => (
-            <motion.article
+          {chatItems.map((item) => (
+            <article
               key={item.id}
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.35, delay: 0.05 * idx }}
               className="group rounded-2xl bg-white shadow-sm ring-1 ring-black/5 hover:shadow-md transition-shadow overflow-hidden"
             >
               <div className="w-full text-left">
@@ -139,22 +135,12 @@ export default function Chat() {
                     {expanded === item.id ? "View Less" : "View More"}
                   </button>
 
-                  <AnimatePresence>
-                    {expanded === item.id && (
-                      <motion.p
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: "auto" }}
-                        exit={{ opacity: 0, height: 0 }}
-                        transition={{ duration: 0.3 }}
-                        className="mt-3 text-sm text-neutral-700"
-                      >
-                        {item.more}
-                      </motion.p>
-                    )}
-                  </AnimatePresence>
+                  {expanded === item.id && (
+                    <p className="mt-3 text-sm text-neutral-700">{item.more}</p>
+                  )}
                 </div>
               </div>
-            </motion.article>
+            </article>
           ))}
         </div>
 
