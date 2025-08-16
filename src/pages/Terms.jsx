@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../assets/images/logo2.png";
 import { FaUserCheck, FaBox, FaShippingFast, FaMoneyBillWave } from "react-icons/fa";
 
 export default function Terms() {
+   useEffect(() => {
+      document.title = "CHERRI | TERMS & CONDITIONS";  
+    }, []);
   return (
-    <div className="min-h-screen mt-28 p-6">
+    <div className="min-h-screen mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] p-6">
       <div className="max-w-4xl mx-auto text-gray-700 space-y-6">
         <img src={logo} alt="Cherii" className="mx-auto mb-4 w-32" />
         <h1 className="text-4xl font-bold mb-6 text-center">Terms & Conditions</h1>
