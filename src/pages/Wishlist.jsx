@@ -1,14 +1,32 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { useWishlist } from "../context/WishlistContext";
+import { useCart } from "../context/CartContext";
 import { FaHeart } from "react-icons/fa";
 
 const Wishlist = () => {
+   useEffect(() => {
+      document.title = "CHERRI | WISHLIST";  
+    }, []);
   const { wishlist, removeFromWishlist, clearWishlist } = useWishlist();
+  const { addToCart } = useCart();
+  const navigate = useNavigate();
+
+  const handleMoveAllToPayment = () => {
+    wishlist.forEach((item) => {
+      addToCart({
+        ...item,
+        quantity: item.quantity || 1,
+        selectedWeight: item.selectedWeight || "1 KG",
+      });
+    });
+    navigate("/payment"); 
+  };
 
   return (
-    <section className="mt-28 py-10 min-h-screen">
+    <section className="mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] py-10 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 flex flex-col">
+        
         <div className="flex justify-end gap-3 mb-6">
           {wishlist.length > 0 && (
             <>
@@ -18,12 +36,13 @@ const Wishlist = () => {
               >
                 REMOVE ALL
               </button>
-              <Link
-                to="/payment"
+
+              <button
+                onClick={handleMoveAllToPayment}
                 className="px-4 py-2 border border-[#F3E5AB] rounded-full font-semibold text-black"
               >
                 NEXT
-              </Link>
+              </button>
             </>
           )}
         </div>
@@ -50,7 +69,6 @@ const Wishlist = () => {
                   <FaHeart className="text-red-500" />
                 </div>
 
-                {/* Text box stays at bottom */}
                 <div className="p-3 bg-[#F3E5AB]">
                   <h3 className="font-bold text-lg">{item.title}</h3>
                   <p className="text-sm">
