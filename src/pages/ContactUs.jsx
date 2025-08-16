@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import contact1 from "../assets/images/contact.png";
 import branch1 from "../assets/images/contact1.png";
 import branch2 from "../assets/images/contact2.png";
@@ -28,6 +28,9 @@ const locations = [
 ];
 
 const ContactUs = () => {
+  useEffect(() => {
+          document.title = "CHERRI | CONTACT US";  
+        }, []);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -69,7 +72,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="mt-28 min-h-screen flex flex-col items-center py-10">
+    <section className="mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] min-h-screen flex flex-col items-center py-10">
       <h2 className="text-[#e7833c] font-bold text-xl md:text-4xl uppercase text-center">
         Send Us a Message
       </h2>
@@ -79,7 +82,6 @@ const ContactUs = () => {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 mt-10 max-w-5xl w-full px-4 sm:px-6">
-        {/* FORM */}
         <form
           onSubmit={handleSubmit}
           className="flex flex-col gap-4 order-2 md:order-1"
