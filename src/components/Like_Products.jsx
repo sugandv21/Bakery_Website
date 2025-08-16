@@ -57,14 +57,16 @@ const Like_Products = ({ currentProduct }) => {
         <h2 className="text-center text-2xl font-bold text-[#E57F35] mb-10">
           YOU MAY ALSO LIKE
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
           {similarProducts.map((product) => {
             const inWishlist = wishlist.some((item) => item.id === product.id);
             return (
               <div
                 key={product.id}
-                className="relative bg-white rounded-xl overflow-hidden shadow-md group max-w-xs mx-auto"
+                className="relative bg-white rounded-xl overflow-hidden shadow-md group w-full max-w-sm mx-auto"
               >
+                {/* Wishlist Button */}
                 <div
                   onClick={(e) => {
                     e.preventDefault();
@@ -79,8 +81,9 @@ const Like_Products = ({ currentProduct }) => {
                     }`}
                   />
                 </div>
+
                 <Link to={`/product/${product.id}`} className="block relative">
-                  <div className="w-80 h-64 overflow-hidden">
+                  <div className="w-full h-48 sm:h-56 md:h-64 overflow-hidden">
                     <img
                       src={product.img}
                       alt={product.title}
@@ -88,12 +91,11 @@ const Like_Products = ({ currentProduct }) => {
                     />
                   </div>
                 </Link>
-
-                <div className="absolute bottom-0 left-0 w-full bg-[#F3E5AB] py-3 px-4 text-center">
-                  <h3 className="text-lg md:text-xl lg:text-2xl  font-bold text-gray-800 uppercase">
+                <div className="absolute bottom-0 left-0 w-full bg-[#F3E5AB] py-3 px-2 sm:px-4 text-center">
+                  <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-gray-800 uppercase break-words">
                     {product.title}
                   </h3>
-                  <p className="text-lg md:text-xl font-medium text-gray-700">
+                  <p className="text-sm sm:text-base md:text-lg font-medium text-gray-700">
                     FROM: ₹ {product.price} PER KG
                   </p>
                 </div>
