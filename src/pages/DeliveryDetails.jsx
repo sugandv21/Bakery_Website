@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import TruckOrder from "../components/TruckOrder";
 
 const DeliveryDetails = () => {
+   useEffect(() => {
+      document.title = "CHERRI | DELIVERY DETAILS";  
+    }, []);
   const { state } = useLocation();
-  const productImage = state?.productImage;
+  const productImages = state?.productImages || [];
 
   const orderDate = new Date();
-
   const deliveryDate = new Date(orderDate);
   deliveryDate.setDate(orderDate.getDate() + 1);
   deliveryDate.setHours(0, 0, 0, 0);
@@ -20,7 +22,7 @@ const DeliveryDetails = () => {
       .replace(" ", ".");
 
   return (
-    <section className="mt-28 min-h-screen p-6 flex flex-col items-center justify-center">
+    <section className="mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] min-h-screen p-6 flex flex-col items-center justify-center">
       <h1 className="text-center font-bold text-lg md:text-xl mb-8">
         THE ORDER WAS PROCESSED, FULFILLED, AND DELIVERED <br /> AS WITHIN ONE DAY
       </h1>
@@ -42,20 +44,23 @@ const DeliveryDetails = () => {
           </p>
         </div>
 
-        <div className="flex justify-center">
-          {productImage ? (
-            <img
-              src={productImage}
-              alt="Product"
-              className="rounded-lg shadow-lg max-w-xs w-full object-cover"
-            />
+        <div className="flex flex-wrap gap-4 justify-center">
+          {productImages.length > 0 ? (
+            productImages.map((img, idx) => (
+              <img
+                key={idx}
+                src={img}
+                alt={`Product ${idx + 1}`}
+                className="rounded-lg shadow-lg max-w-[10rem] w-full object-cover"
+              />
+            ))
           ) : (
             <p className="text-gray-500">No product image available</p>
           )}
         </div>
       </div>
-     <TruckOrder orderDate={orderDate} deliveryDate={deliveryDate} />
 
+      <TruckOrder orderDate={orderDate} deliveryDate={deliveryDate} />
     </section>
   );
 };
