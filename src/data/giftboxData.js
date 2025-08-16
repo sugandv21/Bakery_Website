@@ -1,7 +1,6 @@
 import gift1 from "../assets/images/gift1.jpg";
 import gift2 from "../assets/images/gift2.jpg";
 import gift3 from "../assets/images/gift3.webp";
-import gift4 from "../assets/images/gift4.webp";
 import gift5 from "../assets/images/gift5.webp";
 import gift6 from "../assets/images/gift6.jpg";
 
@@ -26,16 +25,7 @@ export const giftbox = [
     ingredients: "Chocolate, Cream, Butter, Flavorings",
     allergies: "Contains Milk, Soy"
   },
-  {
-    id: "604",
-    img: gift4,
-    title: "Golden Mysore Pak Box",
-    price: 1100,
-    description: "Rich and soft Mysore Pak pieces prepared with ghee and sugar, packed in a premium box.",
-    nutrition: "100g – Calories 420 kcal, Fat 22g, Carbs 45g, Protein 5g",
-    ingredients: "Gram Flour, Ghee, Sugar",
-    allergies: "Contains Milk"
-  },
+
   {
     id: "603",
     img: gift3,
@@ -67,3 +57,4 @@ export const giftbox = [
     allergies: "Contains Milk, Nuts, Soy"
   }
 ];
+
