@@ -7,63 +7,63 @@ import gift6 from "../assets/images/gift6.jpg";
 
 export const giftbox = [
   {
-    id: "601",
-    img: gift1,
-    title: "Assorted Chocolates Gift Box",
-    price: 1200,
-    description: "A luxurious box of assorted chocolates, perfect for gifting on special occasions.",
-    nutrition: "Calories vary per piece – Avg 50 kcal per chocolate",
-    ingredients: "Cocoa, Sugar, Milk, Nuts, Flavorings",
-    allergies: "Contains Milk, Nuts, Soy"
-  },
-  {
-    id: "602",
-    img: gift2,
-    title: "Dry Fruits Sweet Box",
-    price: 1500,
-    description: "Premium sweets packed with assorted dry fruits, ideal for celebrations and festivals.",
-    nutrition: "100g – Calories 400 kcal, Fat 18g, Carbs 45g, Protein 6g",
-    ingredients: "Cashews, Almonds, Pistachios, Sugar, Ghee",
-    allergies: "Contains Nuts, Milk"
-  },
-  {
-    id: "603",
-    img: gift3,
-    title: "Kaju Katli Gift Pack",
-    price: 1300,
-    description: "Delicate cashew fudge squares arranged in an elegant gift pack.",
-    nutrition: "100g – Calories 450 kcal, Fat 25g, Carbs 40g, Protein 8g",
-    ingredients: "Cashews, Sugar, Ghee, Cardamom",
-    allergies: "Contains Nuts, Milk"
-  },
-  {
-    id: "604",
-    img: gift4,
-    title: "Mysore Pak Assorted Box",
-    price: 1100,
-    description: "Traditional South Indian sweet, soft and rich, arranged in a premium box.",
-    nutrition: "100g – Calories 420 kcal, Fat 22g, Carbs 45g, Protein 5g",
-    ingredients: "Gram Flour, Ghee, Sugar",
-    allergies: "Contains Milk"
+    id: "606",
+    img: gift6,
+    title: "Grand Celebration Hamper",
+    price: 1600,
+    description: "An elegant hamper filled with a mix of festive sweets and dry fruits, perfect for celebrations.",
+    nutrition: "100g – Calories 400 kcal, Fat 20g, Carbs 45g, Protein 6g",
+    ingredients: "Sugar, Ghee, Flour, Dry Fruits, Cardamom",
+    allergies: "Contains Milk, Nuts, Gluten"
   },
   {
     id: "605",
     img: gift5,
-    title: "Chocolate Truffle Box",
+    title: "Premium Truffle Delight Box",
     price: 1400,
-    description: "Rich and creamy chocolate truffles with assorted flavors, perfect for gifting.",
+    description: "Decadent chocolate truffles in assorted flavors, crafted for indulgent gifting.",
     nutrition: "100g – Calories 450 kcal, Fat 28g, Carbs 38g, Protein 6g",
     ingredients: "Chocolate, Cream, Butter, Flavorings",
     allergies: "Contains Milk, Soy"
   },
   {
-    id: "606",
-    img: gift6,
-    title: "Festival Sweet Hamper",
-    price: 1600,
-    description: "A combination of popular Indian sweets in an attractive hamper for festive occasions.",
-    nutrition: "100g – Calories 400 kcal, Fat 20g, Carbs 45g, Protein 6g",
-    ingredients: "Sugar, Ghee, Flour, Dry Fruits, Cardamom",
-    allergies: "Contains Milk, Nuts, Gluten"
+    id: "604",
+    img: gift4,
+    title: "Golden Mysore Pak Box",
+    price: 1100,
+    description: "Rich and soft Mysore Pak pieces prepared with ghee and sugar, packed in a premium box.",
+    nutrition: "100g – Calories 420 kcal, Fat 22g, Carbs 45g, Protein 5g",
+    ingredients: "Gram Flour, Ghee, Sugar",
+    allergies: "Contains Milk"
+  },
+  {
+    id: "603",
+    img: gift3,
+    title: "Cashew Delight Gift Pack",
+    price: 1300,
+    description: "Smooth cashew fudge squares with cardamom flavor, arranged beautifully in a gift pack.",
+    nutrition: "100g – Calories 450 kcal, Fat 25g, Carbs 40g, Protein 8g",
+    ingredients: "Cashews, Sugar, Ghee, Cardamom",
+    allergies: "Contains Nuts, Milk"
+  },
+  {
+    id: "602",
+    img: gift2,
+    title: "Royal Dry Fruit Sweets Box",
+    price: 1500,
+    description: "Exquisite sweets made with premium dry fruits, perfect for festivals and special occasions.",
+    nutrition: "100g – Calories 400 kcal, Fat 18g, Carbs 45g, Protein 6g",
+    ingredients: "Cashews, Almonds, Pistachios, Sugar, Ghee",
+    allergies: "Contains Nuts, Milk"
+  },
+  {
+    id: "601",
+    img: gift1,
+    title: "Luxury Chocolate Assortment",
+    price: 1200,
+    description: "A premium selection of assorted chocolates, ideal for gifting to your loved ones.",
+    nutrition: "Calories vary per piece – Avg 50 kcal per chocolate",
+    ingredients: "Cocoa, Sugar, Milk, Nuts, Flavorings",
+    allergies: "Contains Milk, Nuts, Soy"
   }
 ];
