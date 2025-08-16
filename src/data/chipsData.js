@@ -1,58 +1,47 @@
 import chips1 from "../assets/images/chips1.webp";
 import chips2 from "../assets/images/chips2.jpg";
-import chips3 from "../assets/images/chips11.jpg";
+import chips3 from "../assets/images/chips3.jpg";
 import chips4 from "../assets/images/chips4.webp";
-import chips5 from "../assets/images/chips12.jpeg";
 
 export const chips = [
   {
-    id: "85",
-    img: chips5,
-    title: "Barbecue Chips",
-    price: 200,
-    description: "Smoky and savory chips with a bold barbecue flavor.",
-    nutrition: "100g – 570 kcal, Fat 37g, Carbs 52g, Protein 8g",
-    ingredients: "Potatoes, Sunflower Oil, Barbecue Seasoning, Salt",
-    allergies: "None"
-  },
-  {
-    id: "86",
-    img: chips3,
-    title: "Spicy Chili Chips",
-    price: 210,
-    description: "Crispy chips with a fiery chili kick for spice lovers.",
-    nutrition: "100g – 580 kcal, Fat 38g, Carbs 50g, Protein 8g",
-    ingredients: "Potatoes, Sunflower Oil, Chili Powder, Paprika, Salt",
-    allergies: "None"
-  },  
-  {
-    id: "87",
+    id: "81",
     img: chips1,
-    title: "Golden Salt Crunch",
-    price: 160,
-    description: "Classic potato crisps fried to a golden perfection and lightly seasoned with a touch of salt. Simple yet satisfying, these chips offer an irresistible crunch with every bite, perfect for pairing with dips or enjoying on their own.",
+    title: "Classic Salted Chips",
+    price: 150,
+    description: "Crispy potato chips lightly seasoned with a touch of salt for a simple yet irresistible flavor.",
     nutrition: "100g – 540 kcal, Fat 34g, Carbs 53g, Protein 7g",
     ingredients: "Potatoes, Sunflower Oil, Salt",
     allergies: "None"
   },
   {
-    id: "88",
-    img: chips4,
-    title: "Garlic Herb Fusion",
-    price: 210,
-    description: "A flavorful blend of fragrant herbs and zesty garlic creates a rich and savory snacking experience. These chips are crafted for those who love bold and aromatic flavors, offering a gourmet twist on the traditional potato crisp.",
-    nutrition: "100g – 545 kcal, Fat 34g, Carbs 53g, Protein 7g",
-    ingredients: "Potatoes, Sunflower Oil, Garlic Powder, Herbs",
-    allergies: "None"
-  },
-  {
-    id: "89",
+    id: "82",
     img: chips2,
-    title: "Cheddar Burst Crisps",
-    price: 200,
-    description: "Loaded with the rich, creamy taste of cheddar cheese, these crunchy crisps are a true indulgence for cheese lovers. Every bite combines the perfect crunch of potato with a bold, cheesy flavor that lingers deliciously on the palate.",
+    title: "Cheese Flavored Chips",
+    price: 170,
+    description: "Crunchy chips coated with rich and creamy cheese seasoning, perfect for cheese lovers.",
     nutrition: "100g – 560 kcal, Fat 36g, Carbs 50g, Protein 8g",
     ingredients: "Potatoes, Sunflower Oil, Cheese Powder, Salt",
     allergies: "Contains Milk"
+  },
+  {
+    id: "83",
+    img: chips3,
+    title: "Sour Cream & Onion Chips",
+    price: 190,
+    description: "Tangy sour cream blended with savory onion seasoning for a classic, flavorful crunch.",
+    nutrition: "100g – 555 kcal, Fat 35g, Carbs 51g, Protein 8g",
+    ingredients: "Potatoes, Sunflower Oil, Sour Cream Powder, Onion Powder, Salt",
+    allergies: "Contains Milk"
+  },
+  {
+    id: "84",
+    img: chips4,
+    title: "Herb & Garlic Chips",
+    price: 185,
+    description: "Crispy chips seasoned with aromatic herbs and garlic for a bold and zesty flavor experience.",
+    nutrition: "100g – 545 kcal, Fat 34g, Carbs 53g, Protein 7g",
+    ingredients: "Potatoes, Sunflower Oil, Garlic Powder, Mixed Herbs, Salt",
+    allergies: "None"
   }
 ];
