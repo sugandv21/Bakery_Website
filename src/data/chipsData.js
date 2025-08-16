@@ -1,7 +1,7 @@
 import chips1 from "../assets/images/chips1.webp";
 import chips2 from "../assets/images/chips2.jpg";
 import chips3 from "../assets/images/chips3.jpg";
-import chips4 from "../assets/images/chips4.webp";
+import chips4 from "../assets/images/chips12.jpeg";
 
 export const chips = [
   {
@@ -34,15 +34,16 @@ export const chips = [
     ingredients: "Potatoes, Sunflower Oil, Sour Cream Powder, Onion Powder, Salt",
     allergies: "Contains Milk"
   },
-  {
-    id: "84",
-    img: chips4,
-    title: "Herb & Garlic Chips",
-    price: 185,
-    description: "Crispy chips seasoned with aromatic herbs and garlic for a bold and zesty flavor experience.",
-    nutrition: "100g – 545 kcal, Fat 34g, Carbs 53g, Protein 7g",
-    ingredients: "Potatoes, Sunflower Oil, Garlic Powder, Mixed Herbs, Salt",
-    allergies: "None"
-  }
+ {
+  id: "84",
+  img: chips4,
+  title: "Barbecue Chips",
+  price: 185,
+  description: "Crunchy potato chips infused with a smoky barbecue seasoning, delivering a perfect balance of sweet, tangy, and savory flavors.",
+  nutrition: "100g – 545 kcal, Fat 34g, Carbs 53g, Protein 7g",
+  ingredients: "Potatoes, Sunflower Oil, Barbecue Powder, Mixed Herbs, Salt",
+  allergies: "May contain traces of gluten"
+}
 ];
+
 
