@@ -10,7 +10,7 @@ function Home() {
       document.title = "CHERRI | HOME";  
     }, []);
   return (
-    <div className="mt-24 md:mt-52 lg:mt-28 bg-[#FFF8F0] ">
+    <div className="mt-24 md:mt-52 lg:mt-32 bg-[#FFF8F0] ">
       <BannerSlider />
       <WhyChooseUs />
       <h2 className="text-center text-2xl sm:text-3xl font-bold text-[#e57f35] mb-8">
@@ -31,3 +31,4 @@ function Home() {
 }
 
 export default Home;
+
