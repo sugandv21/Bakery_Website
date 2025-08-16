@@ -1,4 +1,3 @@
-// src/pages/Register.jsx
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import cake from "../assets/images/imagelogin.png";
@@ -31,47 +30,53 @@ export default function Register() {
   };
 
   const validateName = (name) => /^[A-Za-z]+$/.test(name);
+const handleSubmit = (e) => {
+  e.preventDefault();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  if (!validateName(formData.firstName) || !validateName(formData.lastName)) {
+    alert("Names should not contain numbers or special characters.");
+    return;
+  }
 
-    if (!validateName(formData.firstName) || !validateName(formData.lastName)) {
-      alert("Names should not contain numbers or special characters.");
-      return;
-    }
+  if (formData.password.length < 6) {
+    alert("Password must be at least 6 characters.");
+    return;
+  }
 
-    if (formData.password.length < 6) {
-      alert("Password must be at least 6 characters.");
-      return;
-    }
+  const storedUser = JSON.parse(localStorage.getItem("registeredUser"));
 
-    const storedUser = JSON.parse(localStorage.getItem("registeredUser"));
-
-    if (storedUser && storedUser.email === formData.email) {
-      setModalMessage("User already registered!");
-      setModalOpen(true);
-      setTimeout(() => setModalOpen(false), 2000);
-      return;
-    }
-
-    // Save new user in localStorage
-    localStorage.setItem("registeredUser", JSON.stringify(formData));
-
-    // ✅ Update Auth context with firstName and lastName
-    register({
-      firstName: formData.firstName,
-      lastName: formData.lastName,
-      email: formData.email,
-    });
-
-    setModalMessage("Registration Successful! Redirecting to Home...");
+  if (storedUser && storedUser.email === formData.email) {
+    setModalMessage("User already registered!");
     setModalOpen(true);
+    setTimeout(() => setModalOpen(false), 2000);
+    return;
+  }
 
-    setTimeout(() => {
-      setModalOpen(false);
-      navigate("/"); // Redirect to home after registration
-    }, 2000);
-  };
+  localStorage.setItem("registeredUser", JSON.stringify(formData));
+
+  register({
+    firstName: formData.firstName,
+    lastName: formData.lastName,
+    email: formData.email,
+  });
+
+  localStorage.setItem("isLoggedIn", "true");
+
+  setModalMessage("Registration Successful! Redirecting...");
+  setModalOpen(true);
+
+  setTimeout(() => {
+    setModalOpen(false);
+
+    const redirectData = JSON.parse(localStorage.getItem("redirectAfterLogin"));
+    if (redirectData?.state && redirectData?.path) {
+      navigate(redirectData.path, { state: redirectData.state });
+      localStorage.removeItem("redirectAfterLogin"); 
+    } else {
+      navigate("/"); 
+    }
+  }, 2000);
+};
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col md:flex-row items-center gap-6 p-6">
