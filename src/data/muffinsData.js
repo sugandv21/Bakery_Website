@@ -17,7 +17,7 @@ export const muffins = [
     allergies: "Contains Eggs, Milk, Gluten"
   },
   {
-    id: "66",
+    id: "65",
     img: muffin6,
     title: "Cranberry Burst Muffin",
     price: 570,
@@ -27,7 +27,7 @@ export const muffins = [
     allergies: "Contains Eggs, Milk, Gluten"
   },
   {
-    id: "61",
+    id: "66",
     img: muffin1,
     title: "Fresh Blueberry Muffin",
     price: 550,
@@ -37,7 +37,7 @@ export const muffins = [
     allergies: "Contains Eggs, Milk, Gluten"
   },
   {
-    id: "65",
+    id: "67",
     img: muffin5,
     title: "Lemon Zest Muffin",
     price: 580,
@@ -47,7 +47,7 @@ export const muffins = [
     allergies: "Contains Eggs, Milk, Gluten"
   },
   {
-    id: "62",
+    id: "68",
     img: muffin2,
     title: "Chocolate Delight Muffin",
     price: 570,
@@ -57,7 +57,7 @@ export const muffins = [
     allergies: "Contains Eggs, Milk, Gluten"
   },
   {
-    id: "63",
+    id: "69",
     img: muffin3,
     title: "Banana Nut Muffin",
     price: 590,
@@ -67,3 +67,4 @@ export const muffins = [
     allergies: "Contains Eggs, Milk, Gluten, Nuts"
   }
 ];
+
