@@ -24,7 +24,7 @@ export const chips = [
     nutrition: "100g – 580 kcal, Fat 38g, Carbs 50g, Protein 8g",
     ingredients: "Potatoes, Sunflower Oil, Chili Powder, Paprika, Salt",
     allergies: "None"
-  },
+  },  
   {
     id: "87",
     img: chips1,
@@ -56,5 +56,3 @@ export const chips = [
     allergies: "Contains Milk"
   }
 ];
-
-
