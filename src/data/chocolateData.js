@@ -9,7 +9,7 @@ export const chocolate = [
   {
     id: "701",
     img: choco1,
-    title: "Milk Chocolate Bar",
+    title: "Creamy Milk Bliss",
     price: 500,
     description: "Smooth and creamy milk chocolate bar, perfect for a sweet treat.",
     nutrition: "100g – Calories 540 kcal, Fat 30g, Carbs 55g, Protein 7g",
@@ -19,7 +19,7 @@ export const chocolate = [
   {
     id: "702",
     img: choco2,
-    title: "Dark Chocolate",
+    title: "Midnight Dark Indulgence",
     price: 600,
     description: "Rich and intense dark chocolate with a high cocoa content.",
     nutrition: "100g – Calories 580 kcal, Fat 35g, Carbs 50g, Protein 8g",
@@ -29,7 +29,7 @@ export const chocolate = [
   {
     id: "703",
     img: choco3,
-    title: "White Chocolate",
+    title: "Velvety White Dream",
     price: 550,
     description: "Sweet and creamy white chocolate bar, smooth and velvety.",
     nutrition: "100g – Calories 540 kcal, Fat 32g, Carbs 55g, Protein 6g",
@@ -39,7 +39,7 @@ export const chocolate = [
   {
     id: "704",
     img: choco4,
-    title: "Chocolate Truffles",
+    title: "Decadent Choco Truffles",
     price: 1200,
     description: "Decadent chocolate truffles with assorted flavors, perfect for gifting.",
     nutrition: "Per piece – Calories 60 kcal, Fat 4g, Carbs 6g, Protein 1g",
@@ -49,7 +49,7 @@ export const chocolate = [
   {
     id: "705",
     img: choco5,
-    title: "Nutty Chocolate",
+    title: "Nutty Choco Crunch",
     price: 700,
     description: "Chocolate embedded with crunchy nuts for a delightful texture and flavor.",
     nutrition: "100g – Calories 560 kcal, Fat 32g, Carbs 55g, Protein 8g",
@@ -59,7 +59,7 @@ export const chocolate = [
   {
     id: "706",
     img: choco6,
-    title: "Chocolate Covered Fruits",
+    title: "Fruit & Choco Fusion",
     price: 800,
     description: "Assorted dried fruits coated with rich chocolate, perfect for gifting or snacking.",
     nutrition: "100g – Calories 500 kcal, Fat 28g, Carbs 60g, Protein 5g",
@@ -67,4 +67,3 @@ export const chocolate = [
     allergies: "Contains Milk, May contain Nuts"
   }
 ];
-
