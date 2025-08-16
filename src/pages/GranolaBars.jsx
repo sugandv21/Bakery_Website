@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaHeart } from "react-icons/fa";
 import { bread } from "../data/breadData";
 import { useWishlist } from "../context/WishlistContext";
 
 const GranolaBars = () => {
+   useEffect(() => {
+      document.title = "CHERRI | PRODUCT-GRANOLA BARS";  
+    }, []);
   const { wishlist, addToWishlist } = useWishlist();
 
   return (
-    <section className="mt-28 py-10 min-h-screen">
+    <section className="mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] py-10 min-h-screen">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-center text-2xl font-bold text-[#E57F35] mb-10">
           BREAD
