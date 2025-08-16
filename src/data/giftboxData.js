@@ -9,7 +9,7 @@ import gift9 from "../assets/images/gift9.avif";
 
 export const giftbox = [
   {
-    id: "609",
+    id: "601",
     img: gift9,
     title: "Royal Festive Celebration Box",
     price: 1700,
@@ -19,7 +19,7 @@ export const giftbox = [
     allergies: "Contains Nuts, Milk, Soy"
   },
   {
-    id: "608",
+    id: "602",
     img: gift8,
     title: "Golden Assorted Sweet Box",
     price: 1500,
@@ -29,7 +29,7 @@ export const giftbox = [
     allergies: "Contains Milk, Gluten, Nuts"
   },
   {
-    id: "607",
+    id: "603",
     img: gift7,
     title: "Signature Gourmet Hamper",
     price: 1800,
@@ -39,7 +39,7 @@ export const giftbox = [
     allergies: "Contains Milk, Nuts, Soy"
   },
   {
-    id: "606",
+    id: "604",
     img: gift6,
     title: "Grand Celebration Hamper",
     price: 1600,
@@ -59,7 +59,7 @@ export const giftbox = [
     allergies: "Contains Milk, Soy"
   },
   {
-    id: "603",
+    id: "606",
     img: gift3,
     title: "Cashew Delight Gift Pack",
     price: 1300,
@@ -69,7 +69,7 @@ export const giftbox = [
     allergies: "Contains Nuts, Milk"
   },
   {
-    id: "602",
+    id: "607",
     img: gift2,
     title: "Royal Dry Fruit Sweets Box",
     price: 1500,
@@ -79,7 +79,7 @@ export const giftbox = [
     allergies: "Contains Nuts, Milk"
   },
   {
-    id: "601",
+    id: "608",
     img: gift1,
     title: "Luxury Chocolate Assortment",
     price: 1200,
@@ -89,3 +89,4 @@ export const giftbox = [
     allergies: "Contains Milk, Nuts, Soy"
   }
 ];
+
