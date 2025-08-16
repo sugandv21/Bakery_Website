@@ -3,8 +3,41 @@ import gift2 from "../assets/images/gift2.jpg";
 import gift3 from "../assets/images/gift3.webp";
 import gift5 from "../assets/images/gift5.webp";
 import gift6 from "../assets/images/gift6.jpg";
+import gift7 from "../assets/images/gift7.jpeg";
+import gift8 from "../assets/images/gift8.webp";
+import gift9 from "../assets/images/gift9.avif";
 
 export const giftbox = [
+  {
+    id: "609",
+    img: gift9,
+    title: "Royal Festive Celebration Box",
+    price: 1700,
+    description: "A luxurious blend of exotic dry fruits, mithai, and chocolates, curated for grand festive gifting.",
+    nutrition: "100g – Calories 420 kcal, Fat 22g, Carbs 44g, Protein 7g",
+    ingredients: "Cashews, Almonds, Pistachios, Cocoa, Sugar, Ghee",
+    allergies: "Contains Nuts, Milk, Soy"
+  },
+  {
+    id: "608",
+    img: gift8,
+    title: "Golden Assorted Sweet Box",
+    price: 1500,
+    description: "An assorted box of traditional sweets with a golden touch, making it perfect for special occasions.",
+    nutrition: "100g – Calories 410 kcal, Fat 19g, Carbs 46g, Protein 6g",
+    ingredients: "Flour, Sugar, Ghee, Milk Solids, Cardamom",
+    allergies: "Contains Milk, Gluten, Nuts"
+  },
+  {
+    id: "607",
+    img: gift7,
+    title: "Signature Gourmet Hamper",
+    price: 1800,
+    description: "A signature hamper featuring artisanal sweets, premium dry fruits, and chocolates in an elegant package.",
+    nutrition: "100g – Calories 430 kcal, Fat 23g, Carbs 43g, Protein 7g",
+    ingredients: "Dry Fruits, Chocolate, Sugar, Ghee, Cocoa",
+    allergies: "Contains Milk, Nuts, Soy"
+  },
   {
     id: "606",
     img: gift6,
@@ -25,7 +58,6 @@ export const giftbox = [
     ingredients: "Chocolate, Cream, Butter, Flavorings",
     allergies: "Contains Milk, Soy"
   },
-
   {
     id: "603",
     img: gift3,
@@ -57,4 +89,3 @@ export const giftbox = [
     allergies: "Contains Milk, Nuts, Soy"
   }
 ];
-
