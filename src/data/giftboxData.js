@@ -5,19 +5,8 @@ import gift5 from "../assets/images/gift5.webp";
 import gift6 from "../assets/images/gift6.jpg";
 import gift7 from "../assets/images/gift7.jpeg";
 import gift8 from "../assets/images/gift8.webp";
-import gift9 from "../assets/images/gift9.avif";
 
 export const giftbox = [
-  {
-    id: "601",
-    img: gift9,
-    title: "Royal Festive Celebration Box",
-    price: 1700,
-    description: "A luxurious blend of exotic dry fruits, mithai, and chocolates, curated for grand festive gifting.",
-    nutrition: "100g – Calories 420 kcal, Fat 22g, Carbs 44g, Protein 7g",
-    ingredients: "Cashews, Almonds, Pistachios, Cocoa, Sugar, Ghee",
-    allergies: "Contains Nuts, Milk, Soy"
-  },
   {
     id: "602",
     img: gift8,
@@ -89,4 +78,5 @@ export const giftbox = [
     allergies: "Contains Milk, Nuts, Soy"
   }
 ];
+
 
