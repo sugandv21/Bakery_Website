@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import cakeImg from "../assets/images/cakes.jpg";
 import pastryImg from "../assets/images/pastries.png";
@@ -30,8 +30,11 @@ export const products = [
 
 
 const ProductsSection = () => {
+    useEffect(() => {
+      document.title = "CHERRI | OUR PRODUCTS";  
+    }, []);
   return (
-    <section className="mt-28 py-10">
+    <section className="mt-20 md:mt-44 lg:mt-28 bg-[#FFF8F0] py-10">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-center text-2xl font-bold text-[#E57F35] mb-10">
           OUR PRODUCTS
