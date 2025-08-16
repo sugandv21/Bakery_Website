@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import cake from "../assets/images/imagelogin.png";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
-export default function Login() {
+export default function Login({ setActiveTab }) {
   const [showPassword, setShowPassword] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [lostPassModal, setLostPassModal] = useState(false);
-  const [resetStep, setResetStep] = useState(1); 
+  const [resetStep, setResetStep] = useState(1);
   const [emailForReset, setEmailForReset] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [formData, setFormData] = useState({ email: "", password: "" });
+  
   const { login } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
@@ -25,38 +26,38 @@ export default function Login() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    const storedUser = JSON.parse(localStorage.getItem("registeredUser"));
+  e.preventDefault();
+  const storedUser = JSON.parse(localStorage.getItem("registeredUser"));
 
-    if (
-      storedUser &&
-      storedUser.email === formData.email &&
-      storedUser.password === formData.password
-    ) {
-      login({
-        firstName: storedUser.firstName,
-        lastName: storedUser.lastName,
-        email: storedUser.email,
-      });
+  if (
+    storedUser &&
+    storedUser.email === formData.email &&
+    storedUser.password === formData.password
+  ) {
+    login({
+      firstName: storedUser.firstName,
+      lastName: storedUser.lastName,
+      email: storedUser.email,
+    });
 
-      localStorage.setItem("isLoggedIn", "true");
-      setModalOpen(true);
+    localStorage.setItem("isLoggedIn", "true");
+    setModalOpen(true);
 
-      setTimeout(() => {
-        setModalOpen(false);
+    setTimeout(() => {
+      setModalOpen(false);
 
-        const redirectData = JSON.parse(localStorage.getItem("redirectAfterLogin"));
-        if (redirectData?.state && redirectData?.path) {
-          navigate(redirectData.path, { state: redirectData.state });
-          localStorage.removeItem("redirectAfterLogin");
-        } else {
-          navigate("/");
-        }
-      }, 2000);
-    } else {
-      alert("Invalid email or password!");
-    }
-  };
+      const redirectData = JSON.parse(localStorage.getItem("redirectAfterLogin"));
+      if (redirectData?.state && redirectData?.path) {
+        navigate(redirectData.path, { state: redirectData.state });
+        localStorage.removeItem("redirectAfterLogin"); 
+      } else {
+        navigate("/"); 
+      }
+    }, 2000);
+  } else {
+    alert("Invalid email or password!");
+  }
+};
 
 
   const handleLostPasswordEmail = () => {
@@ -67,6 +68,7 @@ export default function Login() {
       alert("User not registered!");
     }
   };
+
   const handlePasswordReset = () => {
     if (newPassword !== confirmPassword) {
       alert("Passwords do not match!");
@@ -83,14 +85,14 @@ export default function Login() {
     setConfirmPassword("");
   };
 
-  useEffect(() => {
-    if (location.state?.fromPayment) {
-      localStorage.setItem(
-        "redirectAfterLogin",
-        JSON.stringify({ path: "/payment", state: location.state.paymentState })
-      );
-    }
-  }, [location.state]);
+  // useEffect(() => {
+  //   if (location.state?.fromPayment) {
+  //     localStorage.setItem(
+  //       "redirectAfterLogin",
+  //       JSON.stringify({ path: "/payment", state: location.state.paymentState })
+  //     );
+  //   }
+  // }, [location.state]);
 
   return (
     <>
@@ -98,7 +100,6 @@ export default function Login() {
         onSubmit={handleSubmit}
         className="flex flex-col md:flex-row items-center gap-6 p-6"
       >
-      
         <div className="w-full md:w-1/2 space-y-4">
           <label className="block font-medium">E-Mail</label>
           <input
@@ -143,14 +144,15 @@ export default function Login() {
           >
             Lost Your Password
           </p>
+
           <p className="text-lg font-bold">
             Don't Have An Account?{" "}
-            <Link
-              to="/register"
+            <span
+              onClick={() => setActiveTab("register")}
               className="text-[#E57F35] font-bold cursor-pointer hover:underline"
             >
               Register
-            </Link>
+            </span>
           </p>
         </div>
 
