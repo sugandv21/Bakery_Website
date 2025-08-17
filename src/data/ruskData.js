@@ -1,9 +1,9 @@
-import rusk1 from "../assets/images/rusk1.webp";
+import rusk1 from "../assets/images/rusk1.jpg";
 import rusk3 from "../assets/images/rusk3.webp";
 import rusk4 from "../assets/images/rusk4.jpg";
-import rusk5 from "../assets/images/rusk5.webp";
+import rusk5 from "../assets/images/rusk5.jpg";
 import rusk6 from "../assets/images/rusk6.webp";
-import rusk7 from "../assets/images/rusk7.webp";
+import rusk7 from "../assets/images/rusk7.jpg";
 
 export const rusk = [
   { 
@@ -67,3 +67,4 @@ export const rusk = [
     allergies: "Contains Gluten and Milk. Made in a facility that handles Nuts, Sesame, and Soy."
   },
 ];
+
