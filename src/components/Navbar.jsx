@@ -219,27 +219,26 @@ const Navbar = () => {
         We couldn’t find any product matching "{searchTerm}".
       </p>
 
-      {/* Available Products */}
       {products.length > 0 && (
-        <div className="mb-4 text-left">
-          <h3 className="text-sm font-semibold text-gray-700 mb-1">
-            Available Products:
-          </h3>
-          <ul className="list-disc list-inside text-blue-600">
-            {products.map((p) => (
-              <li key={p.id}>
-                <Link
-                  to={`/product/${p.id}`}
-                  className="hover:underline"
-                  onClick={() => setShowModal(false)}
-                >
-                  {p.title}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+  <div className="mb-4 text-left">
+    <h3 className="text-sm font-semibold text-gray-700 mb-1">
+      Available Products:
+    </h3>
+    <ul className="list-disc list-inside text-blue-600">
+      {products.map((p) => (
+        <li key={p.id || p.title}>
+          <Link
+            to={p.link}  
+            className="hover:underline"
+            onClick={() => setShowModal(false)}
+          >
+            {p.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
 
       <button
         onClick={() => setShowModal(false)}
@@ -256,3 +255,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
